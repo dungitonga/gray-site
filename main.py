@@ -35,4 +35,4 @@ def send_email(subject,body,sender,recipient,password):
         smtp_server.sendmail(sender, recipient, msg.as_string())
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=environ.get("PORT"))
