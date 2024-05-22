@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<!--
+	Highlights by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Duncan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/css/main.min.css" />
+		<link rel="icon" href="static/favicon/favicon.ico"/>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<div class="container">
+					<ul class="actions special">
+						<li><img style="width:200px;height:200px;border-radius:50%;" src="static/images/IAIN.jpg" alt="" /></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main special">
+				<div class="container">
+					<span class="image fit primary"><img src="static/images/pic01.jpg" alt="" /></span>
+					<div class="content">
+						<header class="major">
+							<h2>Who I am.</h2>
+						</header>
+						<p> 
+							Hey there! I'm Duncan, a software developer with a passion for all things tech. I'm also an aspiring 
+							hacker—because who doesn't love a bit of digital mystery and mayhem? On top of that, I'm a chemistry 
+							enthusiast. I mean, where else can you take a metal that explodes on contact with air and water, mix 
+							it with a poisonous gas, and voila, you get plain old table salt? Seriously, how cool is that?!
+						</p>
+						<p>	
+							When I'm not coding or concocting chemical wonders, you'll find me buried in a book, cheering on Arsenal,
+							or diving into the fascinating world of numbers. What does all this say about me? Honestly, I have no 
+							clue! But one thing's for sure: I'm neither a geek nor a nerd. I'm just a guy with a lot of interests 
+							and an endless curiosity for the world around me.
+						</p>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main special">
+				<div class="container">
+					<span class="image fit primary"><img src="static/images/pic02.jpg" alt="" /></span>
+					<div class="content">
+						<header class="major">
+							<h2>Stuff I do</h2>
+						</header>
+						<p>
+							Here's a peek at the technologies I'm well-versed in. If you're curious about the tech brew in my cup, 
+							it's what keeps every developer's gears turning smoothly.
+						</p>
+						<p>	
+							But enough about me—I'm here to lift your spirits. No matter what you're facing, remember there's a light 
+							at the end of that dark tunnel. (Seriously, who decided to put the light at the end instead of inside? We 
+							might never know, but hey, it's there!) Keep pushing forward; brighter days are just around the corner!
+						</p>
+						<ul class="icons-grid">
+							<li>
+								<span><i class="fa-brands fa-python fa-7x" style="--fa-animation-duration: 2s;"></i></span>
+								<h3>Python</h3>
+							</li>
+							<li>
+								
+								<span><i class="fa-brands fa-node fa-7x" style="--fa-animation-duration: 2s;"></i></span>
+								<h3>Node.js</h3>
+							</li>
+							<li>
+								<span><i class="fa-solid fa-database fa-7x" style="--fa-animation-duration: 2s;"></i></span>
+								<h3>Database</h3>
+							</li>
+							<li>
+								<span><i class="fa-solid fa-coffee fa-7x" style="--fa-animation-duration: 2s;"></i></span>
+								<h3>Coffee</h3>
+							</li>
+						</ul>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="main special">
+				<div class="container">
+					<span class="image fit primary"><img src="static/images/pic03.jpg" alt="" /></span>
+					<div class="content">
+						<header class="major">
+							<h2>One last thing</h2>
+						</header>
+						<p>Arsenal haven't won the premier league in more than 20 years and just like any parent who is always proud
+							of their child, we take pride in Arsenal.
+						</p>
+						<p>
+							Ever wondered when a fly decides to pull off that acrobatic flip and land upside down on the ceiling?
+							 🪰✨ It's one of nature's little mysteries! Drop a comment or question below—let's get buzzing about it! 🐝👇
+						</p>
+					</div>
+					<a href="#footer" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<header class="major">
+						<h2>Get in touch</h2>
+					</header>
+					<form method="post">
+						<div class="row gtr-uniform">
+							<div class="col-6 col-12-xsmall"><input type="text" value="{{ request.form['name'] }}" name="name" id="name" placeholder="Name" /></div>
+							<div class="col-6 col-12-xsmall"><input type="email" value="{{ request.form['email'] }}" name="email" id="email" placeholder="Email" /></div>
+							<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4">{{ request.form['message'] }}</textarea></div>
+							<div class="col-12">
+								<ul class="actions special">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://x.com/ianjecinta" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.linkedin.com/in/ian-gitonga-627714261/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:ianjecinta@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Duncan</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/jquery.scrollex.min.js"></script>
+			<script src="static/js/jquery.scrolly.min.js"></script>
+			<script src="static/js/browser.min.js"></script>
+			<script src="static/js/breakpoints.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>
+
+	</body>
+</html>
